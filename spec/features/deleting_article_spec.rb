@@ -11,7 +11,7 @@ scenario " A user deletes an article" do
   click_link "Delete Article"
 
   expect(page).to have_content("Article has been deleted")
-  expect(current_path).to eq(article_path)
+  expect(current_path).to eq(articles_path)
 
 end
 end
