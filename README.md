@@ -1,17 +1,11 @@
-User Sign Up
+Articles will belong to users
+Users will own Articles
+Users - 1 side of this
+Articles -many
 
-Topic branch
-create Spec
+User can have many Articles
+an articles can only belong to users
+foriegn key of users_id in the articles table
 
-Signing Up User
--visit root
--click on signup link
--email
--password
--password confirmation
-
--sign-up
-
-Invalid signup
--do invalid sign up and ensures it fails
--
+Steps
+create the spec
